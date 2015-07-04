@@ -1,13 +1,13 @@
 {
-  "name": "generator-nm",
-  "version": "1.3.2",
-  "description": "Scaffold out a node module",
+  "name": "generator-nm-semistandard",
+  "version": "0.0.0",
+  "description": "Scaffold out a node module, with semistandard code style",
   "license": "MIT",
-  "repository": "sindresorhus/generator-nm",
+  "repository": "icyflame/generator-nm-semistandard",
   "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
+    "name": "Siddharth Kannan",
+    "email": "kannan.siddharth12@gmail.com",
+    "url": "icyflame.github.io"
   },
   "engines": {
     "node": ">=0.10.0"
@@ -27,8 +27,15 @@
     "node",
     "module",
     "node_module",
-    "node-module"
+    "node-module",
+    "semistandard",
+    "style"
   ],
+  "semistandard": {
+    "ignore": [
+      "app/templates/"
+    ]
+  },
   "dependencies": {
     "humanize-url": "^1.0.1",
     "normalize-url": "^1.2.0",
