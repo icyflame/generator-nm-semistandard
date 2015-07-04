@@ -1,6 +1,6 @@
 {
   "name": "generator-nm-semistandard",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Scaffold out a node module, with semistandard code style",
   "license": "MIT",
   "repository": "icyflame/generator-nm-semistandard",
