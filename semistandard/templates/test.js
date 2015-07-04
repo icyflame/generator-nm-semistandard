@@ -1,7 +1,8 @@
+/* global it */
 'use strict';
 var assert = require('assert');
-var <%= camelModuleName %> = require('./');
+// var <%= camelModuleName %> = require('./');
 
 it('should ', function () {
-	assert.strictEqual(true, true);
+  assert.strictEqual(true, true);
 });
